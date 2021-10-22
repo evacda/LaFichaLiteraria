@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videos</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/videos.css">
+<link rel="icon" type="image/png" href="images/favicon3.png">
+<script src="js/interactivy.js"></script>
+<script src="https://kit.fontawesome.com/2b6ca610c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img id="titlelogo"  src="images/favicon2.png" alt="Logo" width="20px">
+        <h1>La Ficha Literaria</h1>
+        <nav id="enlaces">
+            <a href="index.html">Inicio</a>
+            <a href="sobremi.html">Sobre m&iacute;</a>
+            <a href="videos.html" class="current">Videos</a>
+            <a href="podcast.html">Podcasts</a>
+            <a href="escritos.html">Escritos</a>
+        </nav>
+            <i class="fas fa-bars fa-3x" onclick="opennavoptions()"></i>
+    </header>
+    <div id="content">
+        <div id="container">
+            <div class="mainvideos" data-video="Alfonsina">
+                <h1>Alfonsina Storni</h1>
+                <button class="leermas" onclick="leermas('Alfonsina')">Detalles</button>
+                <p class='texto'>Poes&iacute;a y datos biogr&aacute;ficos de la gran poeta argentina, Alfonsina Storni.</p>
+                <iframe src="https://www.youtube.com/embed/2x2Nl6Cl5ms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="mainvideos" data-video="goliardos">
+                <h1>Los poetas goliardos</h1>
+                <button class="leermas" onclick="leermas('goliardos')">Detalles</button>
+                <p class="texto">Errabundos e irreverentes, los goliardos fueron unos poetas medievales muy especiales. ¿Sabes qu&eacute; tiene que ver el himno de las universidades con ellos y la cerveza? En el video te lo explico.</p>
+                <iframe src="https://www.youtube.com/embed/dlat1LgrdAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="mainvideos" data-video="arturo">
+                <h1>La leyenda del rey Arturo</h1>
+                <button class="leermas" onclick="leermas('arturo')">Detalles</button>
+                <p class="texto">¡Dios salve al rey! <br>En esta d&eacute;cima ficha, te ofrezco lecturas sobre el nacimiento y la gloria del rey Arturo. ¿T&uacute;  crees que existi&oacute;? Yo pienso que s&iacute;; no del modo en que consideramos la existencia corrientemente: Arturo est&aacute; en lo m&aacute;s profundo de nosotros y a trav&eacute;s del tiempo se ha manifestado donde quiera que haya habido personas justas y de coraz&oacute;n puro.</p>
+                <iframe id="nuevovideo" src="https://www.youtube.com/embed/MZejOX2Prag"></iframe>
+            </div>
+            <div class="mainvideos" data-video="janea">
+                <h1>Jane Austen</h1>
+                <button class="leermas" onclick="leermas('janea')">Detalles</button>
+                <p class="texto">Tengo una noticia buena y una mala. La mala es que la ficha de esta semana dura m&aacute;s que de costumbre. La buena es que la ficha es larga, porque tiene mucha lectura. ¿Qu&eacute; novelas de Jane Austen has le&iacute;do? ¿Qu&eacute; pel&iacute;culas basadas en obras de la inglesa has visto?</p>
+                <iframe src="https://www.youtube.com/embed/_Pc3_7O726Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="mainvideos" data-video="sanfrancisco">
+                <h1>San Francisco de As&iacute;s</h1>
+                <button class="leermas" onclick="leermas('sanfrancisco')">Detalles</button>
+                <p class="texto">¿Qu&eacute; hace San Francisco de As&iacute;s en "La ficha literaria"? Mira el video y desc&uacute;brelo</p>
+                <iframe src="https://www.youtube.com/embed/wfw8vmea8LA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="mainvideos" data-video="shakespeare">
+                <h1>William Shakespeare</h1>
+                <button class="leermas" onclick="leermas('shakespeare')">Detalles</button>
+                <p class="texto">A nosotros, Shakespeare nos parece "alto"; pero lo cierto es que &eacute;l escrib&iacute;a para todo tipo de personas en su &eacute;poca. ¡Podr&iacute;a decir tantas cosas de este genio! ¿Qu&eacute; tal si ustedes complementan esta publicaci&oacute;n con sus conocimientos sobre &eacute;l?</p>
+                <iframe src="https://www.youtube.com/embed/ZCZf9jT9aIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="mainvideos" data-video="Poe">
+                <h1>Edgar Allan Poe</h1>
+                <button class="leermas" onclick="leermas('Poe')">Detalles</button>
+                <p class="texto">¿Te gustan los cuentos de terror? Entonces, esta ficha literaria va dedicada a ti. ¡Atenci&oacute;n al reto que est&aacute; relacionado con una serie animada! No tienes que conocer a Poe para participar. El premio es una colecci&oacute;n de cuentos del autor.</p>
+                <iframe src="https://www.youtube.com/embed/SavBvyw87gA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="mainvideos" data-video="teresa">
+                <h1>Teresa de la Parra</h1>
+                <button class="leermas" onclick="leermas('teresa')">Detalles</button>
+                <p class="texto">4&ordm; episodio de "La ficha literaria" dedicado a una gran escritora venezolana. Si cumples el #RetoLiterario de esta vez, te llevas los dos libros de Teresa de la Parra en PDF.</p>
+                <iframe src="https://www.youtube.com/embed/8DCjQewS6_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="mainvideos" data-video="homero">
+                <h1>Homero</h1>
+                <button class="leermas" onclick="leermas('homero')">Detalles</button>
+                <p class="texto">2&ordm; episodio de "La ficha literaria". No olviden participar en el #RetoLiterario. El que primero responda correctamente, se lleva un buen libro en PDF &#x1F4DA;.
+                    ¡Que disfruten!</p>
+                <iframe src="https://www.youtube.com/embed/B-UubGkxQsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="redes">
+            <a class="fab fa-twitter-square fa-3x" href="https://twitter.com/isabeltgarciap" target="_blank"></a>
+            <a class="fab fa-instagram fa-3x" href="https://www.instagram.com/isabeltgarcia/" target="_blank"></a>
+        </div>
+        <p>P&aacute;gina web creada por <a id="evacda" href = "mailto:evacdanselmi.web@gmail.com">Evacdanselmi</a></p>
+    </footer>
+</body>
+</html>

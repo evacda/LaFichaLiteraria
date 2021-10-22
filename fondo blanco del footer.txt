@@ -1,0 +1,5 @@
+ Texto en footer: color: rgb(99 92 92);
+fondo blanco
+box-shadow: 8px -4px 8px rgb(170 170 170) !important;
+
+https://00b9-2a02-ab88-3805-b880-d82d-fd2c-668a-a9db.ngrok.io

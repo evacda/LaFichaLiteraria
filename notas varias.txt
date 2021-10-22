@@ -1,0 +1,11 @@
+Color:
+#0095CC
+
+Segundo Color
+#0140FF
+
+Tipo de Letra Maquina
+
+
+Book font awesome
+<i class="fas fa-book-open"></i>
